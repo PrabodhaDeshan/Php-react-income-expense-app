@@ -1,0 +1,59 @@
+
+.card1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+.loginouter{
+    padding: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+
+
+.lmd{
+    width: 30%;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 20px;
+    padding: 50px;
+    
+
+}
+
+
+input[type="submit"] {
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: #3423f4;
+    
+   
+    
+    
+    
+  }
+
+  .btnn{
+    padding-top: 20px;
+  }
+
+  input[type="password"] {
+
+    width: 80%;
+    height: 45px;
+   
+    
+   
+    
+    
+    
+  }

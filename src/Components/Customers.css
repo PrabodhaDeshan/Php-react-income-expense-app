@@ -1,0 +1,100 @@
+* {
+    
+    font-family: sans-serif;
+}
+
+
+.create-button{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    
+}
+
+button:hover {
+    background-color: rgb(33, 112, 197);
+  }
+
+.table{
+    padding: 20px;
+   
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    
+    border-radius: 5px 5px 0 0;
+   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #3e6fae;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3e6fae;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #3e6fae;
+}
+
+a:link, a:visited {
+    background-color: rgb(33, 112, 197);
+    height: 50px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(62, 117, 205);
+
+}
+
+.customer-outer{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.customer{
+    width: 45%;
+    padding-bottom: 200px;
+    background-color: #ffffff;
+    
+}
+
+.submit-button-outer{
+    width: 100%;
+    height: 100px;
+   
+  }
+  
